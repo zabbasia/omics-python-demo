@@ -1,0 +1,5 @@
+gene,control,treated,tretead,log2FC
+GeneA,11.0,30.0,28.0,2.583
+GeneB,6.0,20.0,18.0,3.0
+GeneC,105.0,90.0,95.0,0.858
+GeneD,2.5,8.0,9.0,2.571
