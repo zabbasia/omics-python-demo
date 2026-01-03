@@ -14,7 +14,8 @@ Saves results to results/group_means.csv
 Runs automatically via GitHub Actions on every push!
 
 ## 📁 Structure
-omics-python-demo/
+
+### omics-python-demo/
 ├── data/
 │   ├── expression_matrix.csv  # Gene x Sample matrix
 │   └── samples.csv           # Sample metadata
@@ -28,7 +29,7 @@ Local run:
 
 '''bash
 pip install -r requirements.txt
-python analysis.py'''
+python analysis.py
 
 GitHub Actions: Push to main → workflow runs automatically → check Actions tab!
 
@@ -40,3 +41,9 @@ text
 GeneA     11.0    29.0    1.40
 GeneB      6.0    19.0    1.66
 GeneC    105.0    92.5   -0.18
+
+
+
+**Copy → `nano README.md` → Save → `git add .` → `git push`** 
+
+**Result:** Beautiful GitHub page with colored code! 🎨
